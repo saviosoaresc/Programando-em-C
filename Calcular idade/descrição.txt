@@ -1,0 +1,27 @@
+Implemente um programa que calcula a idade de uma pessoa. Seu programa irá receber a data de nascimento da pessoa e a data atual. As datas fornecidas estão no formato dd/MM/yyyy. Esse formato de data significa dia/mês/ano, onde o dia e o mês terão dois dígitos e o ano 4. Imprima a idade da pessoa.
+
+ATENÇÃO: Só conte anos completos. Exemplo: A data de nascimento é no dia 16/11/1980, a data atual é 20/07/2017, logo sua idade é 36 e não 37 pois ele não completou o último ano.
+
+A primeira data será do nascimento e a segunda a data atual.
+
+Entrada:
+
+16/11/1980
+
+20/07/2017
+
+Saída:
+
+36
+
+Entrada:
+
+01/01/1912
+
+20/01/2020
+
+Saída:
+
+108
+
+Curiosidade: Esse formato dd/MM/yyyy é utilizado em várias linguagens de programação, exceto o C :), para a exibição de datas em determinado padrão. É o que chamamos de Expressão Regular. Em países de língua inglesa, utiliza-se o formato MM/dd/yyyy ou MM-dd-yyyy para as datas. Nos bancos de dados relacionais usa-se o formato yyyy-MM-dd. Dessa forma, apenas alterando o formato, podemos exibir datas num determinado padrão.

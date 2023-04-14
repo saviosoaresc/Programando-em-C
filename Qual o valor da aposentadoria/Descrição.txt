@@ -1,0 +1,59 @@
+Existem diversas regras para o cálculo do valor aposentadoria, que varia pelo sexo, idade, valor de contribuição, etc.
+
+No instituto de previdência Tabajara, para calcular o valor da aposentadoria, considera-se que a pessoa vai viver até 100 anos. Calcula-se o total em reais que a pessoa já contribuiu e divide por quanto tempo (em meses) falta até ela completar 100 anos. Aí chegamos no valor mensal da aposentadoria. 
+
+Além disso, foi adicionado outra regra, de acordo com o sexo. 
+
+Se for do sexo masculino, e ele tiver idade maior ou igual a 90 anos, o valor da aposentadoria terá um acréscimo de 50%, caso contrário, será fornecido o percentual de acréscimo (%).
+
+Se for do sexo feminino, será fornecido dois valores, o salário mínimo e o percentual de acréscimo (%). O percentual será aplicado no valor da aposentadoria calculado anteriormente e se esse valor ficar abaixo do salario mínimo, então o valor da aposentadoria será o valor do salário mínimo.
+
+Implemente um programa que vai receber o sexo (F ou M), idade, tempo de contribuição em meses e o valor mensal de contribuição.
+
+Se for do sexo masculino e tiver idade menor que 90 anos, será fornecido o percentual de acréscimo. 
+
+Se for do sexo feminino, será fornecido o valor do salário mínimo e percentual de acréscimo. 
+
+Vejamos um exemplo. Uma pessoa do sexo masculino se aposentou com 64 anos e passou 600 meses contribuindo com o valor mensal de 1294.00. O total de contribuição é de 600*1294.00 = 776400.00. Com 64 anos ele tem direito de receber a aposentadoria por 36 anos (100 - 64), que dar 432 meses. Valor da aposentadoria seria de 776400.00/432 = 1797.22.
+Como a pessoa é do sexo masculino e tem menos de 90 anos, é fornecido o percentual de aumento de 10% (=0.1). Logo o valor da aposentadoria será de 1797.22 + 0.1*1797.22 = 1976.94.
+
+Entrada:
+
+M 64 600 1294.00    
+
+10
+
+Saída:
+
+1976.94
+
+Vejamos um exemplo do sexo feminino. Uma pessoa do sexo feminino se aposentou com 70 anos e passou 240 meses contribuíndo com o valor mensal de 1895.00. O total de contribuição é de 240*1895.00 = 454800.00. Com 70 anos ele tem direito de receber a aposentadoria por 30 anos (100 - 70), que dar 360 meses. Valor da aposentadoria seria de 454800.00/360 = 1263.33.
+Como a pessoa é do sexo feminino, é fornecido o valor do salário mínimo de 1196.00 e o percentual de aumento de 40% (0.40). Aplicando o percentual de aumento fica 1263.33 + 0.4*1263.33 = 1768.67. Como esse valor é maior que o valor do salário mínimo, então esse será o valor da aposentadoria dela.
+
+Entrada:
+
+F 70 240 1895.00
+
+1196.00 40.00
+
+Saída:
+
+1768.67
+
+Entrada:
+
+M 93 360 736.00    
+
+Saída:
+
+4731.43
+
+Entrada:
+
+F 63 192 530.00
+
+648.00 40.00
+
+Saída:
+
+648.00

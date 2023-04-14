@@ -1,0 +1,41 @@
+Alguns sistemas geram um identificador numérico para os usuários afim de identifica-los de forma única, como por exemplo a matricula dos alunos e o CPF das pessoas. 
+
+Normalmente esse identificadores possuem regras de formação, ou seja, ele possui um certo formato. 
+
+Implemente um programa que recebe o identificador de um usuário contendo 5 dígitos inteiros e informe se esse identificador respeita a regra ou não. Abaixo temos a regra de formação:
+
+Digamos que os cincos dígitos inteiros são representados pelos: d1 d2 d3 d4 d5. Vocês vão receber esses 5 números inteiros que não necessariamente terão apenas um digito :).
+
+As regras são as seguintes:
+
+1. d1, d3 e d5 devem ser impar;
+2. d2 e d4 devem ser pares;
+3. d3 = d1 + 4;
+4. d5 = d3 + 2.
+Imprima SIM se respeita as regras e NAO caso contrário.
+
+ATENÇÃO: Obrigatoriamente você deve criar quatro variáveis booleanas, uma para cada regra, que irá indicar se a regra é atendida ou não. Verifique cada regra individualmente e depois verifica se as quatros regras são atendidas através das variáveis booleanas.
+
+Entrada:
+
+1 4 5 8 7
+
+Saída:
+
+SIM
+
+Entrada:
+
+1 4 5 8 9
+
+Saída:
+
+NAO
+
+Entrada:
+
+5 4 9 8 11
+
+Saída:
+
+SIM

@@ -1,0 +1,31 @@
+Implemente um programa que irá dizer se um aluno foi aprovado ou não, respeitando as regras atuais da UFC.
+
+O programa irá receber as três notas e calcula a média. Se o valor da média for maior ou igual a 7 ele tá aprovado. Se sua média for menor que 4, ele tá reprovado. Caso contrário, o aluno terá direito a fazer AF.  O programa irá receber o valor da nota da AF. Se sua nota da AF for menor que 4, ele tá reprovado. Caso contrário, calcula-se a média final fazendo a média entre a nota da AF e da primeira média. Se média final for maior ou igual que 5 o aluno da Aprovado, caso contrario reprovado.
+
+Exemplo de Entrada
+
+8.00 6.00 6.00
+
+6.00
+
+Saída
+
+Aprovado
+
+Exemplo de Entrada
+
+9.00 8.00 9.00
+
+Saída
+
+Aprovado
+
+Exemplo de Entrada
+
+4.00 5.00 6.00
+
+1.00
+
+Saída
+
+Reprovado

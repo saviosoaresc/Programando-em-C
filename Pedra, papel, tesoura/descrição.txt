@@ -1,0 +1,48 @@
+Pedra, papel e tesoura, também chamado no Brasil de jokenpô (do japonês じゃんけんぽん, jankenpon) é um jogo de mãos recreativo e simples para duas ou mais pessoas.
+
+No Janken-pon, os jogadores devem simultaneamente esticar a mão, na qual cada um formou um simbolo (que significa pedra, papel ou tesoura). Então, os jogadores comparam os símbolos para decidir quem ganhou, da seguinte forma:
+
+Pedra ganha da tesoura (amassando-a ou quebrando-a).
+Tesoura ganha do papel (cortando-o).
+Papel ganha da pedra (embrulhando-a).
+Caso dois jogadores façam o mesmo gesto, ocorre um empate.
+
+Suponha que Pedra = 1, Tesoura = 2 e Papel = 3
+
+O programa irá receber dois números representando a jogada dos jogadores e deve dizer quem ganhou, jogador 1 ou 2 ou empate 0.
+
+ 
+
+Entrada:
+
+1
+
+3
+
+Saída:
+
+2
+
+---------------------------
+
+Entrada:
+
+3
+
+1
+
+Saída:
+
+1
+
+---------------------------------
+
+Entrada:
+
+3
+
+3
+
+Saída:
+
+0

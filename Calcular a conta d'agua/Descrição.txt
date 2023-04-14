@@ -1,0 +1,43 @@
+Calcular a conta d'agua
+A CAGECE está promovendo uma campanha de conservação de água, distribuindo cartilhas e promovendo ações demonstrando a importância da água para a vida e para o meio ambiente.
+
+Para incentivar mais ainda a economia de água, a ela alterou os preços de seu fornecimento de forma que, proporcionalmente, aqueles clientes que consumirem menos água paguem menos pelo metro cúbico.
+
+Todo cliente paga mensalmente uma assinatura de R$ 7, que inclui uma franquia de 10 m³ de água. Isto é, para qualquer consumo entre 0 e 10 m³ , o consumidor paga a mesma quantia de R$ 7 reais (note que o valor da assinatura deve ser pago mesmo que o consumidor não tenha consumido água).
+
+
+Acima de 10 m³ cada metro cúbico subsequente tem um valor diferente, dependendo da faixa de consumo. A CAGECE cobra apenas por quantidades inteiras de metros cúbicos consumidos. A tabela abaixo especifica o preço por metro cúbico para cada faixa de consumo:
+
+Faixa    Consumo (m³)               Preço (por m³)
+   1         até 10                     incluído na franquia
+   2        11 a 30                           R$ 1
+   3        31 a 100                         R$ 2
+   4        101 em diante                 R$ 5
+
+Assim, por exemplo, se o consumo foi de 120 m³ , o valor da conta é:
+
+7 reais da assinatura básica, ou seja, os 10 primeiros m³ estão incluso nesse valor;
+20 reais pelo consumo da faixa 2, ou seja, o consumo de 11 a 30 m³; vai custar (30 - 11 + 1)*1 = 20 reais.
+140 reais pelo consumo da faixa 3, ou seja, o consumo de 31 a 100 m³; vai custar (100 - 31 + 1)*2 = 140 reais.
+100 reais pelo consumo da faixa 4, ou seja, o consumo de 101 a 120 m³; vai custar (120 - 101 + 1)*5 = 100 reais.
+Logo o valor total da conta de água é 7 + 20 + 140 + 100 = R$ 267.
+
+Outro exemplo, se o consumo foi de 87 m³ , o valor da conta é:
+
+7 reais da assinatura básica, ou seja, os 10 primeiros m³ estão incluso nesse valor;
+20 reais pelo consumo da faixa 2, ou seja, o consumo de 11 a 30 m³; vai custar (30 - 11 + 1)*1 = 20 reais.
+114 reais pelo consumo da faixa 3, ou seja, o consumo de 31 a 87 m³; vai custar (100 - 31 + 1)*2 = 114 reais.
+Não houve consumo da faixa 4.
+Logo o valor total da conta de água é 7 + 20 + 114= R$ 141.
+
+Implemente um programa que recebe um valor inteiro de água consumido em m3  e calcula o valor da conta de água.
+
+Entrada:
+120
+Saída:
+R$ 267
+
+Entrada:
+45
+Saída:
+R$ 57

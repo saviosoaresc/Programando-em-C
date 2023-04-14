@@ -1,0 +1,23 @@
+Suponha uma eleição com 3 candidatos e queremos um programa que receba a quantidade de votos de cada candidato e indique se haverá ou não segundo turno.
+
+Haverá segundo turno numa eleição se a quantidade de votos do primeiro lugar for menor ou igual a metade dos totais de votos.
+
+O programa irá receber a quantidade de votos dos 3 candidatos. E a saída será Segundo Turno se haverá segundo turno ou Primeiro Turno se não houver o segundo turno.
+
+DICA: Você irá precisar da questão MÁXIMO ENTRE TRÊS NÚMEROS.
+
+Entrada:
+
+450 120 300
+
+Saída:
+
+Primeiro Turno
+
+Entrada:
+
+1200 1120 950
+
+Saída:
+
+Segundo Turno

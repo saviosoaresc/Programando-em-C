@@ -1,0 +1,10 @@
+Escreva um programa que recebe dois números inteiros e retorna a média aritmética deles.
+
+Exemplo de Entrada
+
+4
+2
+
+Exemplo de Saída
+
+3
