@@ -1,0 +1,55 @@
+Implemente uma calculadora básica que executa as 4 operações matemáticas básicas : +, -, * ou /.
+
+Se a operação não pode ser realizada, imprima "Operacao invalida.
+
+Abaixo temos os casos em que a operação não pode ser realiza:
+
+1 - O operador fornecido é diferente de '+', '-', '*' ou '/';
+
+2 - Divisão por zero.
+
+Implemente um programa que recebe dois número e um caracter indicando a operação a ser realizada e imprima o resultado da operação.
+
+ATENÇÃO: A ordem de entrada dos números indicam a ordem deles na operação. Exemplo: Seja a entrada "- 12.00 4.00" significa a operação "12.00 - 4.00".
+
+Obrigatoriamente vocês devem usar um único scanf para receber os dados de eentrada.
+
+Exemplo de Entrada
+
+* 54.48 31.90
+
+Saída
+
+1737.912000
+
+Exemplo de Entrada
+
+/ 26.36 22.00
+
+Saída
+
+1.198182
+
+Exemplo de Entrada
+
++ 18.80 26.30
+
+Saída
+
+45.100000
+
+Exemplo de Entrada
+
+- 12.21 6.84
+
+Saída
+
+5.370000
+
+Exemplo de Entrada
+
+/ 12.21 0.00
+
+Saída
+
+Operacao invalida
