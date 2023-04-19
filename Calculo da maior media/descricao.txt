@@ -1,0 +1,25 @@
+Implemente um programa que calcula a média de cada aluno e encontra a maior média.
+
+Teremos 3 alunos onde cada um fez 3 provas (AP1, AP2, AP3).
+
+Cada aluno será identificado pela sua posição na chamada, o primeiro aluno é o aluno 1, o segundo aluno é o aluno 2, e o terceiro aluno é o aluno 3.
+
+O programa irá exibir a maior das médias e qual aluno obteve esse média.
+
+Considere a saída com duas casas decimais.
+
+Exemplo:
+
+Entrada:
+
+9.00 7.00 6.00   //Notas do Aluno 1
+
+2.00 4.00 6.00   //Notas do Aluno 2
+
+8.00 9.00 7.00   //Notas do Aluno 3
+
+Saída:
+
+8.00
+
+Aluno 3
