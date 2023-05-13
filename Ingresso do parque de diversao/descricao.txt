@@ -1,0 +1,39 @@
+O valor do ingresso no parque de diversões tem um desconto que depende da idade da criança.
+
+Para criança até 5 anos de idade o desconto será de 20%. Para criança acima de 5 e até 7 anos de idade o desconto é de 15%. Para criança acima de 7 e até 10 anos o desconto é de 5%. Acima disso não tem desconto e paga o valor normal.
+
+Além disso, na compra de mais de um ingresso, o desconto total permitido será de no máximo 15% do valor total sem desconto.
+
+Para uma família de n filhos, calcule o valor total que essa família irá gastar com os ingressos.
+
+Na primeira linha será fornecido a quantidade de filhos e o preço do ingresso.
+
+A partir da segunda linha, serão fornecidos a idades dos n filhos.
+
+Entrada:
+
+4  56.20     //O primeiro número é a quantidade de filhos e depois o preço do ingresso
+
+4
+
+5
+
+2
+
+3
+
+Saída:191.08
+
+Entrada:
+
+4  60.00     //O primeiro número é a quantidade de filhos e depois o preço do ingresso
+
+5
+
+15
+
+8
+
+7
+
+Saída:216.00
