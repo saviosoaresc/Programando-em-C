@@ -1,0 +1,20 @@
+Implemente um programa que irá receber do usuário n números inteiros e determine o menor e o maior destes números e quantas vezes eles ocorrem. 
+
+Vejamos um exemplo. Vamos receber como valor de n = 6. Em seguida os 6 números inteiros: 9 4 15 28 4 7. O menor e maior valor são 4 e 28, respectivamente. Eles aparecem 2 e 1 vez no vetor.
+
+Imprima essas duas duplas no formato (ocorrência, valor). No exemplo acima deve imprimir: (2,4) (1,28).
+
+Exemplos de entradas
+
+Entrada:
+12
+18 15 6 8 10 9 4 1 3 3 4 17
+Saída:
+(1,1) (1,18)
+
+
+Entrada:
+10
+9 4 1 12 3 10 1 14 19 19
+Saída:
+(2,1) (2,19)

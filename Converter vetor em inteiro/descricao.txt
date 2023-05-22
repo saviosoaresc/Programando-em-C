@@ -1,0 +1,28 @@
+CONVERTER VETOR EM INTEIRO
+
+
+Implemente um programa que deve converter um vetor de inteiros de um único digito em um número inteiro e imprimir esse valor inteiro. Por exemplo, o vetor [7, 4, 3] será transformado no número 743 
+
+Todos os elementos do vetor terão apenas um dígito e serão maiores e iguais a zero.
+
+ATENÇÃO: OBRIGATORIAMENTE VC DEVE CRIAR UM VETOR DE INTEIROS PARA ARMAZENAR OS NÚMEROS DE ENTRADA.
+
+DICA: Repare que para o exemplo [7, 4, 3] devemos fazer 7*100 + 4*10 + 3 = 743. Ou 7*102 + 7*101 + 3*100 = 743. Use o índice do vetor como expoente da potência de 10.
+
+Entrada:
+3
+7 4 3
+Saída:
+743
+
+Entrada:
+3
+1 2 3
+Saída:
+123
+
+Entrada:
+5
+7 8 1 2 1
+Saída:
+78121

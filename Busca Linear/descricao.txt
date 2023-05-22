@@ -1,0 +1,29 @@
+Implemente um programa que recebe um vetor de inteiros e depois um outro número inteiro que será chamado de chave de busca. Deve-se procurar essa chave dentro do vetor. Se o vetor contém essa chave imprima o índice onde ele se encontra, caso contrário, imprima -1.
+
+O tamanho do vetor será o primeiro número informado, depois o vetor de inteiros e por fim a chave de busca.
+
+OBS: Esse programa chama-se de busca linear e será visto por vocês na cadeira de Estrutura de Dados.
+
+Entrada:
+
+5                //QUANTIDADE DE NÚMEROS 
+
+2 6 1 8 3
+
+1               //CHAVE DE BUSCA
+
+Saída:
+
+2              //ÍNDICE ONDE SE ENCONTRA A CHAVE DE BUSCA
+
+Entrada:
+
+4
+
+4 7 -56 89
+
+56
+
+Saída:
+
+-1

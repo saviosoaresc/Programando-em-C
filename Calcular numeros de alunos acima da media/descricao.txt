@@ -1,0 +1,30 @@
+Implemente um programa que irá receber do usuário a quantidade de alunos de uma turma e depois a nota de cada aluno. Seu programa deve calcular a média da turma e contar quantos alunos obtiveram nota maior ou igual que a média da turma. Seu programa deve imprimir a quantidade de alunos com nota maior que a média e depois a média da turma com duas casas decimais.
+
+OBS: Use o tipo float para os vetores.
+
+Entrada:
+10
+1.56
+4.81
+9.48
+8.90
+2.75
+5.86
+1.51
+1.01
+5.36
+7.17
+
+Saída:
+5 4.84
+
+Entrada:
+5
+4.40
+5.50
+6.60
+4.60
+5.00
+
+Saída:
+2 5.22
