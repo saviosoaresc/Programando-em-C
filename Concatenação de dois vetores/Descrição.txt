@@ -1,0 +1,18 @@
+Implemente um programa que recebe dois vetores de inteiros de tamanhos possivelmente diferentes e crie um novo vetor onde os elementos desse novo vetor serão a concatenação dos elementos do primeiro vetor com o segundo.
+
+Vamos com um exemplo. O primeiro vetor tem tamanho 6: [8, 5, 7, 5, 16, 25]. O segundo vetor tem tamanho 4: [78, 5, 25, 49]. O novo vetor obtido pelo concatenação dos dois será: [8, 5, 7, 5, 16, 25, 78, 5, 25, 49].
+
+Observe que todos os elementos do primeiro vetor foram adicionados no vetor concatenacao nas mesmas posições. Já os elementos do segundo vetor foram adicionados logo após o último elemento do primeiro.
+
+Você deve imprimir o tamanho desse vetor concatenação e da outra linha os seus elementos.
+
+ATENÇÃO: OBRIGATORIAMENTE VC DEVE CRIAR OS TRÊS VETORES, OS DOIS PRIMEIROS PARA ARMAZENAR OS VETORES DA ENTRADA E O TERCEIRO COM O RESULTADO, SÓ AÍ VC VAI IMPRIMIR OS NÚMEROS DO TERCEIRO VETOR.
+
+Entrada:
+6
+8, 5, 7, 5, 16, 25
+4
+78, 5, 25, 49
+Saída:
+10
+8, 5, 7, 5, 16, 25, 78, 5, 25, 49
