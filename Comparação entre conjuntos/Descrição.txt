@@ -1,0 +1,41 @@
+Implemente um programa que recebe dois conjuntos de inteiros e imprime Iguais se os dois conjuntos são iguais ou Diferentes caso contrário. 
+
+Iremos armazenar um conjunto em um vetor, portanto, o programa irá receber o tamanho do primeiro conjunto e depois os elementos que pertencem ao conjunto. Depois irá receber o tamanho do segundo conjunto e os elementos que pertencem ao conjunto.
+
+ATENÇÃO: Esses vetores são conjuntos, portanto, dois conjuntos são iguais se possuem os mesmos elementos, independente de sua posição no vetor. Além disso, dois conjuntos de tamanhos distintos podem serem iguais, pois no conjunto pode ter elementos repetidos. Por exemplo, {2, 9, 4, 2, 4} e {9, 4, 2} são dois conjuntos iguais.
+
+DICA: Em teoria dos conjuntos, dois conjuntos  A e B são iguais, se A está contido em B E B está contido em A. Então nessa questão você irá usar o código (ideia) da questão CONJUNTO CONTIDO?.
+
+Exemplo:
+
+Entrada:
+6
+1 2 5 3 4 9
+6
+1 2 5 3 4 8
+Saída:
+Diferentes
+
+Entrada:
+4
+1 4 6 2
+4
+2 6 4 1
+Saída:
+Iguais
+
+Entrada:
+2
+1 2
+3
+3 4 5
+Saída:
+Diferentes
+
+Entrada:
+4
+1 2 1 2
+2
+1 2
+Saída:
+Iguais
