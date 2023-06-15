@@ -1,0 +1,32 @@
+Implemente um programa que recebe dois conjuntos (vetores) de inteiros, de tamanhos diferentes e imprima Contido se o primeiro conjunto está contido no segundo (todos os elementos do primeiro estão no segundo) ou Nao contido, caso contrário.
+
+Primeiro você recebe o tamanho do primeiro conjunto e logo após, recebe os números do primeiro conjunto.
+
+Depois recebe o tamanho do segundo conjunto e logo após, recebe os números do segundo conjunto.
+
+DICA: Conte quantos elementos do primeiro estão contido no segundo e depois compare com o tamanho do primeiro conjunto. Se forem iguais, significa que primeiro conjunto está contido no segundo. Para contar quantos elementos do primeiro estão no segundo, use a ideia da questão BUSCA LINEAR para verificar se esse elemento está contido no segundo conjunto. 
+
+Exemplo:
+Entrada:
+2
+1 2
+3
+3 4 5
+Saída:
+Nao contido
+
+Entrada:
+4
+2 6 4 1
+5
+2 6 4 1 7
+Saída:
+Contido
+
+Entrada:
+6
+1 2 5 3 4 9
+6
+8 1 12 11 10 7
+Saída:
+Nao contido
