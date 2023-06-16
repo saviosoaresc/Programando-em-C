@@ -1,0 +1,18 @@
+Implemente um programa que recebe uma cadeia de caracteres e inverta essa cadeia.
+
+Não pode apenas imprimir, obrigatoriamente deve-se alterar a cadeia original e só depois imprimir.
+
+Entrada:
+ra on odnalor at acopip ed oriehc a acopip
+Saída:
+pipoca a cheiro de pipoca ta rolando no ar
+
+Entrada:
+lua de cristal que me faz sonhar
+Saída:
+rahnos zaf em euq latsirc ed aul
+
+Entrada:
+marquei um x no seu coracao
+Saída:
+oacaroc ues on x mu ieuqram
