@@ -1,0 +1,25 @@
+Um palíndromo é uma sequência de caracteres cuja leitura é idêntica se feita da direita para esquerda ou vice-versa. 
+
+Por exemplo: OSSO e OVO são palíndromos. 
+
+Nas frases os espaços são ignorados e não tem pontuações e acentos. A frase "Subi no Onibus" é o exemplo de uma frase palíndromo onde os espaços foram ignorados. 
+
+Implemente a programa que recebe uma cadeia de caracteres e imprima SIM se essa frase é palíndromo e NAO caso contrário.
+
+Considere o tamanho máximo da frase 100 e que as letras não terão acentos.
+
+Entrada:
+
+Subi no Onibus
+
+Saída:
+
+SIM
+
+Entrada:
+
+Amanha tem aula
+
+Saída:
+
+NAO
