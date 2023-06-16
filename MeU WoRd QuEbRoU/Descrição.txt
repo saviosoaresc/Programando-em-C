@@ -1,0 +1,21 @@
+Implemente um programa que formatar um texto.
+
+Dado um texto, as formatações aplicadas serão: M - Toda maiúscula e m - toda minuscula.
+
+Ignore pontuação, espaço e números.
+
+A entrada é composta de minúsculas, maiúsculas, números, pontuações e espaços simples.
+
+A entrada será um texto com até 100 caracteres e depois um caractere representando a formatação (M ou m).
+
+Entrada:
+O Pato e o frango ja tao cozidos, comam!
+M
+Saída:
+O PATO E O FRANGO JA TAO COZIDOS, COMAM!
+
+Entrada:
+O Pato e o frango ja tao cozidos, comam!
+m
+Saída:
+o pato e o frango ja tao cozidos, comam!
