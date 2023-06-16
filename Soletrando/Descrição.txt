@@ -1,0 +1,25 @@
+Implemente um programa que recebe uma palavra e imprima essa palavra com cada letra separada com "-". 
+
+O tamanho máximo da palavra é 100.
+
+Nessa questão apenas imprima, sem alterar a cadeia de caracter.
+
+Entrada:
+abacate
+Saída:
+a-b-a-c-a-t-e
+
+Entrada:
+ignorante
+Saída:
+i-g-n-o-r-a-n-t-e
+
+Entrada:
+paralelepipedo
+Saída:
+p-a-r-a-l-e-l-e-p-i-p-e-d-o
+
+Entrada:
+bolo
+Saída:
+b-o-l-o
