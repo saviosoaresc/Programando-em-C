@@ -1,0 +1,15 @@
+Implemente um programa que recebe uma frase e uma palavra, e gere um vetor de inteiros contendo a quantidade de vezes que cada letra da palavra ocorre na frase.
+
+Depois imprima o vetor de inteiros.
+
+Obrigatoriamente, você deve criar o vetor de inteiros com a ocorrência das letras e só depois imprimir.
+
+Entrada:
+
+Camila comprou um pouco de manteiga, mas a manteiga era amarga
+
+mpto
+
+Saída:
+
+7 2 2 4
