@@ -1,0 +1,23 @@
+Implemente um programa que recebe uma frase de tamanho máximo 100 e gere duas novas cadeiras de caracteres uma contendo somente as vogais e a outra cadeia somente as consoantes.
+
+Depois imprima as duas cadeias de caracteres.
+
+Obrigatoriamente, você deve criar o vetor de inteiros com a ocorrência das letras e só depois imprimir.
+
+Entrada:
+Um abraco amigo
+Saída:
+Uaaoaio
+mbrcmg
+
+Entrada:
+Meteoro de Pegasus
+Saída:
+eeooeeau
+MtrdPgss
+
+Entrada:
+Hora de morfar
+Saída:
+oaeoa
+Hrdmrfr
