@@ -1,0 +1,30 @@
+JOGO DA ADIVINHAÇÃO
+
+Implemente um jogo de adivinhação onde o programa irá gerar aleatoriamente um número entre 1 e 1024 (que irei chamar de chave) e não irá mostrar o número ao usuário. O programa irá exibir a mensagem: Tente adivinhar a chave: "
+
+O usuário irá tentar adivinhar digitando um número (um chute). Se o usuário não acertar, o programa volta a exibir uma mensagem e o processo se repete até o usuário acerte a chave.
+
+Para cada chute do usuário, o programa irá dá um feedback, mostrando na tela uma das mensagens abaixo:
+
+A palavra "Menor", se o chute do usuário é menor do que a chave.
+A palavra "Maior", se o chute do usuário é maior do que a chave.
+A palavra "Acertou", se o chute é igual a chave. 
+Com esse feedback, você em algum momento irá acertar a chave.
+
+Quando o usuário acertar, imprima também a quantidade de tentativas.
+
+Para selecionar um número aleatória utilizem a função rand da biblioteca stdlib.h.
+
+A função retorna um número pseudoaleatório no intervalo entre 0 e RAND_MAX, onde RAND_MAX é um valor bem alto.
+
+Para gerar um número aleatório entre 1 e 1024 use o código: int chave = rand() % 1024 + 1; 
+
+Atenção: Coloque essa linha de código no início da função main: srand(time(NULL)); adicionando a biblioteca time.h. Esse código muda a semente da função rand e evita que sempre ela selecione o mesmo número.
+
+Use while onde o critério de parada será se o usuário acertou o número.
+
+OBS: NÃO TEM CASOS DE TESTE, VOCÊ COMO JOGADOR TENTARÁ ACERTA A CHAVE.  PARA ISSO, USE O FEEDBACK DO COMPUTADOR PARA ACERTAR. JOQUE ATÉ ACERTAR.
+
+Vamos com um exemplo da estratégia que você irá utilizar para acertar o número.
+
+Observe que o meu primeiro chute foi 785 e errei :(. Mas o programa me deu um feedback: Maior. Então eu sei que a chave que estou tentando acertar está entre 1 e 784, logo no meu próximo chute irei escolher um número dentro desse intervalo. E assim sucessivamente.
