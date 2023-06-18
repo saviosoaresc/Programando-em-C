@@ -1,0 +1,19 @@
+CALCULAR MÉDIA DOS PARES
+
+Implemente um programa que recebe um vetor de inteiros e gere outro vetor contendo apenas os números pares do vetor de entrada. O tamanho desse segundo vetor deve ser igual a quantidade de números pares, para não deixar posição não ocupada no vetor.
+
+Depois calcule a média dos números desse segundo vetor.
+
+Imprima a média com duas casas decimais.
+
+Entrada:
+
+7
+
+10 7 3 2 7 8 2
+
+Saída:
+
+5.50
+
+ATENÇÃO: OBRIGATORIAMENTE VOCÊ DEVE CRIAR O VETOR COM OS NÚMEROS PARES DE TAMANHO EXATO A QUANTIDADE DE PARES, E SÓ DEPOIS CALCULAR A MÉDIA DESSE VETOR E IMPRIMIR. CASO CONTRÁRIO A RESOLUÇÃO SERÁ DESCONSIDERADA
