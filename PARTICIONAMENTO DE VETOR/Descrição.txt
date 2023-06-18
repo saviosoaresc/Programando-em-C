@@ -1,0 +1,27 @@
+PARTICIONAMENTO DE VETOR
+
+Particionamento de um vetor é dividi-lo em duas ou mais vetores de tal forma que nenhuma desses vetores criados tenham elementos em comum.
+
+Uma partição muito comum de um vetor de inteiros é: dado um número chamado de chave da partição (ou chamado de pivô), crie dois vetores onde o primeiro irá conter todos os elementos menores do que o pivô, e no segundo vetor coloque os elementos maiores ou iguais ao pivô.
+
+Implemente um programa que irá receber um vetor de inteiros e depois o pivô e então particione essa vetor em dois vetores como mostrado anteriores e depois imprima essas dois vetores.
+
+Primeiro imprima o vetor com os elementos menores e na outra linha, imprima o vetor com os elementos maiores ou iguais.
+
+Dentro dos dois vetores, mantenha a ordem relativa dos elementos no vetor de entrada.
+
+Entrada:
+
+9                                              //Tamanho do vetor
+
+12 5 78 4 52 36 17 41 25           //Vetor
+
+26                                             //Pivô
+
+Saída:
+
+12 5 4 17 25                                //Vetor com os elementos menores que a chave de partição
+
+78 52 36 41
+
+ATENÇÃO: OBRIGATORIAMENTE VOCÊ DEVE CRIAR OS DOIS VETORES E SÓ DEPOIS IMPRIMIR ESSES VETORES. CASO CONTRÁRIO A RESOLUÇÃO SERÁ DESCONSIDERADA.
