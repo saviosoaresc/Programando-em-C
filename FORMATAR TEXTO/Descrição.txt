@@ -1,0 +1,13 @@
+FORMATAR TEXTO
+
+Implemente um programa que recebe um texto de até 500 caracteres, todos em minúsculos e realiza a formatação que deixa a primeira letra do início de cada frase em maiúscula.
+
+Uma frase finaliza sempre com um ponto e inicializa após um espaço em branco, exceto a primeira frase.
+
+ATENÇÂO: Você deve alterar a cadeia de caracteres de entrada e só depois imprimir.
+
+Entrada:
+a felicidade eh o fim que natureza humana visa. e, a felicidade eh uma atividade, pois nao esta acessivel aqueles que passam sua vida adormecidos. e ela nao eh uma disposicao.
+
+Saída:
+A felicidade eh o fim que natureza humana visa. E, a felicidade eh uma atividade, pois nao esta acessivel aqueles que passam sua vida adormecidos. E ela nao eh uma disposicao.
