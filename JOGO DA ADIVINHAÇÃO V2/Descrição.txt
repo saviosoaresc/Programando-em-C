@@ -1,0 +1,19 @@
+JOGO DA ADIVINHAÇÃO V2
+
+Nesta versão 2, trocamos os papeis. agora o usuário irá escolher um número entre 1 a 1024 (não irá informar o número escolhido ao programa) e o computador irá tentar acertar o número que o usuário escolheu, chutando um número (gerando um número aleatório entre 1 e 1024, inicialmente). 
+
+Assim como na versão anterior, a cada chute do computador, o usuário irá informar ao computador se esse chute que o computador gerou é menor(1), maior(2) ou igual(3) a chave.
+
+Esse processo irá se repete até que o computador acerte a chave.
+
+Atenção, use a estratégia do jogo para implementar um jogador (o computador) mas inteligente, de tal forma que ele possa ganhar. Repare que inicialmente o chute do computador será gerado dentro do intervalo de 1 a 1024, mas depois do primeiro número, o computador pode diminuir esse intervalo, usando o feedback do usuário. Se o primeiro chute foi 150 e o usuário informou que é menor que a chave, então o computador sabe que a chave está no intervalo 151 e 1024. Se o segundo chute for 856 e o usuário informou que é maior que a chave, então o computador sabe que a chave está no intervalo 151 e 855. E assim sucessivamente, até que o computador acerte ou o intervalo fique de apenas um número.
+
+Dica: Para gerar um número aleatório entre um intervalo fechado [inf, sup] com o rand, fazemos:
+
+int chute = inf + rand() % (sup - inf);
+
+CUIDADO, isso só funciona quando inf < sup, quando forem iguais, você não precisa gerar um número aleatório, o valor será inf(ou sup, já que são iguais).
+
+ 
+
+OBS: NÃO TEM CASOS DE TESTE, ESCOLHA UMA CHAVE E JOQUE COM O COMPUTADOR ATÉ ELE ACERTAR.
