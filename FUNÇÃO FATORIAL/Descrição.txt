@@ -1,0 +1,22 @@
+FUNÇÃO FATORIAL
+ Número máximo de arquivos: 1
+Tipo de trabalho:  Trabalho individual
+Implemente um programa que recebe um número inteiro n e imprime o fatorial de n.
+
+fatorial(n) = {1 se n=0 {n*fatorial(n-1) se n>0
+
+Entrada:
+
+8
+
+Saída:
+
+40320
+
+Entrada:
+
+2
+
+Saída:
+
+2
