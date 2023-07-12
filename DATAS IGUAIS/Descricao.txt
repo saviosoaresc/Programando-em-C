@@ -1,0 +1,18 @@
+DATAS IGUAIS
+
+Defina um tipo estruturado para representar uma data com o dia, mês e ano, de nome Data.
+
+Usando a definição acima, crie uma função que receba duas datas, do tipo Data, e retorne 1 se as duas datas são iguais e 0 caso contrário. 
+
+Na main, receba o resultado da função e imprima Iguais ou Diferentes, se o retorno da função for 0 ou 1.
+
+OBS: Não precisa verificar se uma data é válida, considere que seja válida.
+
+Entrada:
+
+02/08/1990
+04/05/2000
+
+Saída:
+
+Diferentes
