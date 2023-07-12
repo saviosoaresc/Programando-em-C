@@ -1,0 +1,37 @@
+CÍRCULO DE MAIOR ÁREA
+
+Use o tipo estruturado que você definiu para representar uma Circulo na questão PONTO DENTRO DO CÍRCULO.
+
+Implemente um programa que recebe n círculos e calcula a área desses n círculos e imprime a maior área. 
+
+Armazene os n círculos em um vetor do tipo Circulo. 
+
+Implemente uma função que recebe como parâmetro o vetor de Circulo e retorna a maior área.
+
+Imprima (na main) a maior área retornada pela função.
+
+OBS: Use como valor de pi = 3.14
+
+Entrada:
+6                          //Quantidade de círculos
+9.73 5.20 18.74     //Coordenada x, y e o raio do círculo
+15.36 2.10 1.68
+12.65 9.68 35.20
+3.02 15.30 16.07
+18.06 2.72 13.14
+15.65 5.09 44.69
+Saída:
+6271.20
+
+
+Entrada:
+7
+0.67 18.01 43.56
+5.77 1.86 4.34
+8.89 17.53 2.72
+7.19 1.79 33.78
+14.62 17.61 1.84
+12.78 1.71 16.25
+8.85 4.30 8.08
+Saída:
+5958.07
