@@ -1,0 +1,19 @@
+DISTÂNCIA ENTRE DOIS PONTOS
+
+Defina um tipo estruturado para representar um ponto do plano cartesiano, ou seja, contém dois dados, coordenadas x e y, todas float, de nome Ponto
+
+Implemente um programa que recebe dois pontos distintos e calcule a distância entre esses dois pontos.
+
+Para isso, implemente uma função que recebe dois pontos, do tipo Ponto, e calcule a distância entre eles.
+
+Imprima (na main) a distância com duas casas decimais.
+
+Entrada:
+
+18.56 23.80   //Ponto 1
+
+18.47 7.89   //Ponto 2
+
+Saída:
+
+15.91
