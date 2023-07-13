@@ -1,0 +1,11 @@
+INCREMENTA PARES VETOR COM ALOCAÇÃO DINÂMICA
+
+Implemente um programa que recebe um vetor de tamanho n alocado dinamicamente e depois incrementa os valores pares.
+
+Imprima esse vetor e depois libere da memoria.
+
+Entrada:
+6
+15 14 8 9 2 4
+Saída:
+15 15 9 9 3 5
