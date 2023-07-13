@@ -1,0 +1,24 @@
+PONTO DENTRO DO CÍRCULO
+
+Defina um tipo estruturado para representar um circulo do plano cartesiano. Um circulo é definido por um ponto e um raio. Use o tipo Ponto da Questão DISTÂNCIA ENTRE DOIS PONTOS e o raio será um float. Esse tipo terá nome de Circulo.
+
+Use também a função que calcula a distância dessa questão.
+
+Implemente um programa que recebe três 5 floats, sendo que os três primeiro representam o ponto e o raio do circulo e os dois últimos um ponto que desejamos saber se está contido dentro do círculo.
+
+Para isso, implemente uma função que recebe como parâmetro o Circulo e um Ponto, retorne true se o ponto está contido no circulo ou fase caso contrário.
+
+Imprima (na main) 1 ou 0.
+
+Entrada:
+5.00 3.00 10.00    //Coordenada x, y e o raio do círculo
+10.47 7.89           // Coordenada x e y do ponto que deseja saber se está dentro do círculo
+Saída:
+1
+
+
+Entrada:
+15.20 9.80 5.10
+5.47 3.89
+Saída:
+0
