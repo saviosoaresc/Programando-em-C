@@ -1,0 +1,27 @@
+INVERTENDO VETOR
+
+Implemente um programa que recebe um vetor de inteiros e o transforme no seu vetor inverso. O vetor inverso de um vetor é um vetor com os elementos em posição trocadas. O primeiro passa a ser o último e o último o primeiro, o segundo passa a ser o penúltimo e o penúltimo passa a ser o segundo, e assim sucessivamente.
+
+Nessa versão você obrigatoriamente não pode usar um vetor auxiliar, deve alterar diretamente o vetor de entrada. Pode usar/criar variáveis.
+
+Obrigatoriamente, você deve alterar o vetor original e só depois imprimir o resultado. Não pode simplesmente imprimir.
+
+Exemplo:
+
+Entrada:
+4
+7 2 6 8
+Saída:
+8 6 2 7
+
+Entrada:
+5
+13 45 18 2 6
+Saída:
+6 2 18 45 13
+
+Entrada:
+4
+1 2 3 7
+Saída:
+7 3 2 1
