@@ -1,0 +1,25 @@
+VALOR TOTAL DAS COMPRAS
+
+Defina um tipo estrutura de dados de nome ItemCompra que represente o item da lista de compras de uma família contendo o nome do produto (tamanho máximo 200), o preço e a quantidade a ser comprada 
+
+Usando esse novo tipo, implemente um programa que receba do usuário n itens da lista de compras, onde para cada item será fornecido o nome, preço e quantidade, correspondendo à lista de compras de um cliente de supermercado e imprima o valor total da compra.
+
+Para isso, crie um vetor do tipo ItemCompra para armazenar as informações informado pelo usuário. Depois, implemente uma função que recebe um vetor do tipo Produto e retorna o valor total das compras, conforme definição da função abaixo:
+
+float calcular_total_compras(ItemCompra compras[], int n);
+
+Entrada:
+3                           //Quantidade de itens da lista de compras
+Macarrao                //Nome
+2.5                          //Preço
+4                             //Quantidade
+Banana           
+0.75
+10
+Feijao
+4
+1
+
+Saída:
+
+21.50 (Imprima com duas casas decimais)
