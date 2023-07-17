@@ -1,0 +1,31 @@
+AGENTE DA NSA
+
+Você é um agente da NSA e deseja encontrar mensagens secretas em um texto de e-mail que foi hackeado. Essas mensagens normalmente são apenas uma palavra que pode indicar uma ordem de atentado ou algo parecido.
+
+Implemente um programa que recebe um texto e depois recebe uma palavra e você tem de indicar se nesse texto contém essa palavra sendo que as letras estão espalhadas no texto mas na ordem da palavra, ou seja, pode ser que não tenha a palavra, mas as letras da palavra e na ordem. Veja o exemplo lá embaixo. 
+
+Imprima Sim ou Não.
+
+O tamanho máximo da frase será 200. Cuidado com o case-sensitive.
+
+Exemplo:
+
+Entrada:
+
+Amanha ira fazer um belo dia, otimo para fazer uma bela caminhada. ////Observe que o texto não tem a palavra bomba, mas tem as letras da palavra bomba na ordem.
+
+bomba
+
+Saída:
+
+Sim
+
+Entrada:
+
+o dia bem bar
+
+bomba
+
+Saída:
+
+Não
